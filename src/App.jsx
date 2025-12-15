@@ -15,7 +15,7 @@ export default function PartySelectionApp() {
         const [showUnclaimConfirm, setShowUnclaimConfirm] = useState(false);
         const [actionLoading, setActionLoading] = useState(false);
 
-        const CORRECT_PASSCODE = 'party2024';
+        const CORRECT_PASSCODE = 'party2025';
 
         const DEFAULT_ITEMS = [
                 { id: 1, name: 'White Rum', claimedBy: null },

@@ -5,8 +5,9 @@ import { getDatabase } from "firebase/database";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyBYxKJlIaCMRojXe5BNPcyy8rYfSGcF_38",
-  authDomain:
-    "https://xmaswarmup-379bf-default-rtdb.europe-west1.firebasedatabase.app/",
+  authDomain: "xmaswarmup-379bf.firebaseapp.com",
+  databaseURL:
+    "https://xmaswarmup-379bf-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "xmaswarmup-379bf",
   storageBucket: "xmaswarmup-379bf.firebasestorage.app",
   messagingSenderId: "42560463810",
