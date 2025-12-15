@@ -285,7 +285,7 @@ export default function PartySelectionApp() {
                 <div className="app-container">
                         <div className="card card-wide">
                                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1em' }}>
-                                        <h1 className="title-large" style={{ margin: 0 }}>Xmas Warmup Cocktails</h1>
+        					<h1 className="title-large" style={{ margin: 0, flex: 1, textAlign: 'center' }}>Xmas Warmup Cocktails</h1>
                                         <button onClick={handleLogout} className="button-icon" title="Change User">
                                                 <LogOut size={20} />
                                         </button>
